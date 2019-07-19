@@ -4,3 +4,4 @@ lib/
 .vscode/ipch/62c0734ac481aae/mmap_address.bin
 .sconsign.dblite
 libRooBarbComplete.a
+.vscode/

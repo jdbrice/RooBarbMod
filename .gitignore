@@ -1,0 +1,6 @@
+include/
+lib/
+.vscode/ipch/24c86a8d8a2b13c2/mmap_address.bin
+.vscode/ipch/62c0734ac481aae/mmap_address.bin
+.sconsign.dblite
+libRooBarbComplete.a

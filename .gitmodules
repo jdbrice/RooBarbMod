@@ -1,0 +1,12 @@
+[submodule "XmlConfig"]
+	path = XmlConfig
+	url = https://github.com/jdbrice/XmlConfig.git
+[submodule "RooPlotLib"]
+	path = RooPlotLib
+	url = https://github.com/jdbrice/RooPlotLib.git
+[submodule "TaskEngine"]
+	path = TaskEngine
+	url = https://github.com/jdbrice/TaskEngine.git
+[submodule "RootAna"]
+	path = RootAna
+	url = https://github.com/jdbrice/RootAna.git

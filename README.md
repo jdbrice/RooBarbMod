@@ -22,7 +22,7 @@ scons -j 8
 
 if you want to install to a different `PREFIX` then :
 ```sh
-scons -j 8 PREFIX="/some/path/"
+scons -j 8 prefix="/some/path/"
 ```
 
 this will build the static library for each module which can be used individually, and another "libRooBarbComplete" that can be used to easily use all moduals. The headers are installed to `PREFIX/include/<MODULE>/` while the libs are installed to `PREFIX/lib/`
@@ -33,3 +33,5 @@ So if you want to include `XmlConfig.h` do this (assuming you added `PREFIX/incl
 ```
 
 For details about the usage of each Module, look at the repo for that module.
+
+NOTE: if you use other software written by me that depends on this, the build files generally expect an evironment variable `JDB_LIB` which points to PREFIX. Probably should choose a better name... 

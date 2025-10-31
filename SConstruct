@@ -1,6 +1,6 @@
 
 
-PREFIX = Dir(ARGUMENTS.get( "prefix", "." )).abspath
+PREFIX = Dir(ARGUMENTS.get( "prefix", "/usr/local" )).abspath
 print( "PREFIX: %s" % (PREFIX) )
 
 SConscript( "XmlConfig/SConstruct", exports='PREFIX' )
